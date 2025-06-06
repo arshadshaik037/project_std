@@ -1,0 +1,49 @@
+body {
+  background-color: #000000;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  gap: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 0;
+  transition: 0.5s;
+}
+button:hover {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
+h1 {
+  background: linear-gradient(to right, #b78ef0, #ffffff);
+  color: transparent;
+  background-clip: text;
+}
+input {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  transition: 0.5s;
+  padding: 10px;
+}
+input:hover {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
+input:focus {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
